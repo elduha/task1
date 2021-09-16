@@ -1,0 +1,7 @@
+my_lst=input('char variable')
+for i in my_lst:
+    for k in my_lst:
+        for g in my_lst:
+            if i!=k and i!=g and k!=g:
+                print(i,k,g)
+
